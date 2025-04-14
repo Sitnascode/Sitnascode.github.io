@@ -26,7 +26,7 @@ Clone the repo
 Open your terminal and run:
 
 bash
-git clone https://github.com/Sitnascode/quiz-app.git
+git clone https://github.com/Sitnascode/Sitnascode.github.io
 Navigate into the project directory
 
 bash
@@ -36,7 +36,6 @@ Open the project in your code editor
 For example, with VS Code:
 bash
 code .
-Run the app
-Simply open the index.html file in your browser. You can double-click the file or use a live server extension in VS Code.
+
 
 
