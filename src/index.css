@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .card-shadow {
+    @apply shadow-lg shadow-gray-200/50 dark:shadow-gray-900/50;
+  }
+  
+  .transition-smooth {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
