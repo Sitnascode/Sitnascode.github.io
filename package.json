@@ -1,4 +1,4 @@
- {
+{
   "name": "simple-quiz-app",
   "version": "1.0.0",
   "description": "A production-quality quiz app built with React and Tailwind CSS",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "react": "^18.2.0",
