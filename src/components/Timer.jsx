@@ -70,25 +70,25 @@ const Timer = ({
   return (
     <div className={`flex items-center space-x-2 sm:space-x-3 ${className}`}>
       <div className={`relative flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 rounded-full border-2 ${getTimerBg()} ${isWarning ? 'animate-pulse' : ''}`}>
-        <svg className="absolute inset-0 w-full h-full transform -rotate-90">
+        <svg className="absolute inset-0 w-full h-full transform -rotate-90" viewBox="0 0 64 64">
           <circle
-            cx="50%"
-            cy="50%"
-            r="45%"
+            cx="32"
+            cy="32"
+            r="28"
             stroke="currentColor"
-            strokeWidth="8%"
+            strokeWidth="4"
             fill="none"
             className={isDark ? 'text-gray-700' : 'text-gray-200'}
           />
           <circle
-            cx="50%"
-            cy="50%"
-            r="45%"
+            cx="32"
+            cy="32"
+            r="28"
             stroke="currentColor"
-            strokeWidth="8%"
+            strokeWidth="4"
             fill="none"
-            strokeDasharray={`${2 * Math.PI * 0.45}`}
-            strokeDashoffset={`${2 * Math.PI * 0.45 * (1 - progressPercentage / 100)}`}
+            strokeDasharray={`${2 * Math.PI * 28}`}
+            strokeDashoffset={`${2 * Math.PI * 28 * (1 - progressPercentage / 100)}`}
             className={`transition-all duration-1000 ease-linear ${
               timeLeft <= 5 ? 'text-red-500' : 
               timeLeft <= 10 ? 'text-amber-500' : 
